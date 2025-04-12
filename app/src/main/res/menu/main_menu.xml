@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_add_note"
+        android:title="Ajouter une note"
+        android:icon="@android:drawable/ic_input_add"
+        android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_list_notes"
+        android:title="Voir les notes"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Se déconnecter"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:showAsAction="ifRoom"/>
+</menu>
